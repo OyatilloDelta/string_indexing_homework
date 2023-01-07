@@ -6,4 +6,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    x=s[n]
+    return x
+print(main('alpha',5))

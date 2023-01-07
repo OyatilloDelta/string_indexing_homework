@@ -1,10 +1,12 @@
 def main(s):
     """
-    A string of length five is given. Return the index of the "*" character, return False if not present.
-    Args:
+    python Index07.py
         s(str): parameter
     Returns:
         int: answer
     """
-    return
+    d=s.index('*')
+
+    return d
+print(main('hs*h'))
         

@@ -6,4 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x=s[0]
+    y=s[-1]
+    s=x+y
+    return s
+print(main('1gucdudv1'))
